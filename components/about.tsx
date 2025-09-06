@@ -12,32 +12,21 @@ export default function About() {
     transition={{delay:0.175}}>
         <SectionHeading>About Me</SectionHeading>
         <p className='mb-3'>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+  Hi! I'm <strong>Kunj</strong>, a sophomore at <strong>Indian Institute of Information Technology Allahabad</strong> with a deep passion for{" "}
+  <span className="font-medium"><strong>web development</strong></span>. I'm currently exploring the world of web technologies, building projects that combine{" "}
+  creativity with functionality. I enjoy{" "}
+  <span className="italic">learning new things</span>, experimenting with different tech stacks, and finding innovative solutions to real-world problems.
+  <br /><br />
+  I'm particularly interested in{" "}
+  <span className="font-medium">front-end development</span>, where I love to bring ideas to life with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and frameworks like{" "}
+  <strong>React</strong> and <strong>Next.js</strong>. I also work with <strong>TypeScript</strong> and enjoy building <strong>full-stack projects</strong>. I'm{" "}
+  <span className="italic">excited</span> about the endless possibilities that web development offers.
+</p>
 
-        </p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-        <p>
+<span className="italic">When I am not coding</span>, you’ll probably find me <strong>listening to music</strong>, trying to figure out my next travel destination, or getting lost in a good book. I’m always up for a{" "}
+<span className="font-medium">spontaneous adventure</span> or a deep dive into random topics — whether that’s <strong>food</strong>, <strong>sports</strong>, or just things that make life interesting.
+<p></p>
 
-        </p>
     </motion.section>
   )
 }
