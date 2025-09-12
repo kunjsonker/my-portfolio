@@ -177,12 +177,14 @@ const StarryBackground = ({
   return (
     <canvas
       ref={canvasRef}
+      className='blur-[2px]'
       style={{
         position: 'fixed',
         top: 0,
         left: 0,
         zIndex: -1,
         background: 'linear-gradient(45deg, #fff1f2, #eff6ff, #f5f3ff, #fdf2f8)',
+    
       }}
     />
   );
@@ -192,7 +194,7 @@ const StarryBackground = ({
 
 const FallbackBackground = () => (
   <div
-    className="fixed inset-0"
+    className="fixed inset-0 "
     style={{
       background: 'linear-gradient(45deg, #fff1f2, #eff6ff, #f5f3ff, #fdf2f8)',
       zIndex: -1,
@@ -213,7 +215,7 @@ const SurrealExperience = () => {
   }, []);
 
   return (
-    <motion.div style={{ minHeight: '0vh' }}>
+    <motion.div style={{ minHeight: '0vh' }} >
       {/* Render static fallback on server, animated canvas on client */}
       {isClient ? (
         <StarryBackground running={running} mode={mode} />
