@@ -34,17 +34,17 @@ const SurrealExperienceClient = () => {
       <div className="fixed bottom-4 right-4 flex flex-col gap-2">
         <button
           onClick={() => setRunning((prev) => !prev)}
-          className="px-4 py-2 bg-purple-600 text-white rounded-lg shadow-lg"
+          className="px-4 py-2 bg-purple-600 text-white rounded-lg shadow-lg text-sm "
         >
           {running ? "Pause Animations" : "Resume Animations"}
         </button>
 
-        <button
+        {/* <button
           onClick={() => setMode((prev) => (prev === "high" ? "smooth" : "high"))}
           className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg"
         >
           {mode === "high" ? "Switch to Smooth Mode" : "Switch to High Quality"}
-        </button>
+        </button> */}
       </div>
     </motion.div>
   );

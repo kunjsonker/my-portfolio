@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-    const{ref}=useSectionInView('About');
-    
+    const { ref } = useSectionInView('About');
+
     return (
         <motion.section ref={ref} className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
             initial={{ opacity: 0, y: 100 }}
@@ -23,9 +23,11 @@ export default function About() {
                 <br /><br />
                 I'm particularly interested in{" "}
                 <span className="font-medium">front-end development</span>, where I love to bring ideas to life with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and frameworks like{" "}
-                <strong>React</strong> and <strong>Next.js</strong>. I also work with <strong>TypeScript</strong> and enjoy building <strong>full-stack projects</strong>. I'm{" "}
+                <strong>React</strong> and <strong>Next.js</strong>. I also work with <strong>TypeScript</strong> and enjoy building <strong>full-stack projects</strong> using the{" "}
+                <strong>MERN Stack</strong>. I deploy my applications on platforms like <strong>Render</strong> and <strong>Vercel</strong>, and I'm{" "}
                 <span className="italic">excited</span> about the endless possibilities that web development offers.
             </p>
+
 
             <span className="italic">When I am not coding</span>, you’ll probably find me <strong>listening to music</strong>, trying to figure out my next travel destination, or getting lost in a good book. I’m always up for a{" "}
             <span className="font-medium">spontaneous adventure</span> or a deep dive into random topics — whether that’s <strong>food</strong>, <strong>sports</strong>, or just things that make life interesting.

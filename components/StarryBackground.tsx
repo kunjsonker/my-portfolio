@@ -1,5 +1,6 @@
 "use client";
 
+import { px } from "framer-motion";
 import React, { useEffect, useRef, useCallback } from "react";
 
 class Particle {
@@ -169,6 +170,7 @@ const StarryBackground = ({ running, mode }: { running: boolean; mode: "high" | 
         top: 0,
         left: 0,
         zIndex: -1,
+        filter:"blur(2px)",
         background: "linear-gradient(45deg, #fff1f2, #eff6ff, #f5f3ff, #fdf2f8)",
       }}
     />
