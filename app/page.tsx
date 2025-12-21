@@ -17,7 +17,7 @@ export default function Home() {
     <main className="flex flex-col items-center px-4">
       
       
-      <SurrealExperience />
+      {/* <SurrealExperience /> */}
       <Intro />
       <SectionDivider />
       <About />
