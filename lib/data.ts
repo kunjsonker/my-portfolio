@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import project1 from "@/public/project1.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -61,14 +62,26 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: "Soon                    ",
+  //   description:
+  //     "This section is currently under development, and the project will be added soon, bringing new features, updates, and improvements for users",
+  //   // tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+  //   tags: [],
+  //   imageUrl: corpcommentImg,
+  // },
+
   {
-    title: "Soon                    ",
+    title: "Appointo",
     description:
-      "This section is currently under development, and the project will be added soon, bringing new features, updates, and improvements for users",
+      "Connecting patients with top-rated healthcare professionals through seamless scheduling. Experience trusted medical care at your fingertips.",
     // tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    tags: [],
-    imageUrl: corpcommentImg,
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"," Node.js", "Express.js","JWT", "Bcrypt", "Cloudinary"],
+    imageUrl: project1,
+    url: "https://appointo-frontend-w1bi.onrender.com",
   },
+
+
   // {
   //   title: "rmtDev",
   //   description:
